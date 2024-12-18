@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+.main {
+    width: 100%;
+    background-color: lightcoral;
+}
+
+.img1 {
+    width: 100%;
+    display: none;
+}
+
+.con {
+    border: 2px solid black;
+    width: 100%;
+}
+
+.img2 {
+    display: none;
+}
+
+
+@media screen and (width >=768px) and (width <=1024px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (width >=600px) and (width <=1200px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (width >=480px) {
+    .main {
+        display: flex;
+    }
+}
+
+@media screen and (width >=500px) and (width <=800px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media screen and (width <=400px) {
+    .img1 {
+        display: block;
+    }
+}
+
+@media screen and (width >=1024px) {
+    .main {
+        padding: 20px;
+    }
+}
+
+@media screen and (width >=600px) and (width <=1200px) {
+    header {
+        background-color: lightgrey;
+    }
+}
+
+@media screen and (width <=480px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (width <=600px) {
+    .img2 {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (width >=700px) and (width <=1200px) {
+    a {
+        color: blue;
+    }
+}
+
+@media screen and (width >=500px) and (width <=800px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+.border {
+    height: 200px;
+    width: 200px;
+}
+
+@media screen and (width >=1024px) {
+    .border {
+        border: 2px solid black;
+    }
+}
+
+@media screen and (width >=800px) and (width <=1200px) {
+    i {
+        font-size: 250px;
+    }
+}
+
+@media screen and (width <=600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
