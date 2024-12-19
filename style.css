@@ -15,7 +15,7 @@ a {
 
 .img1 {
     width: 100%;
-    display: none;
+    display: block;
 }
 
 .con {
@@ -78,7 +78,7 @@ a {
 
 @media screen and (width >=480px) {
     .main {
-        display: flex;
+        display: none;
     }
 }
 
